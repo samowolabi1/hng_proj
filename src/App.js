@@ -5,7 +5,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={proImg} className="App-logo" alt="logo" />
+        <img 
+          src={proImg} 
+          className="App-logo" 
+          alt="logo"
+          id='pro_img'
+          />
+
+          {/* Slack username: Samow1 */}
+
+        <p className='proName'>Samuel Owolabi</p>
 
         <a
           className="button"
