@@ -1,5 +1,5 @@
 import proImg from './proImg.jpeg';
-import Button from './Button';
+import './App.css';
 
 function App() {
   return (
@@ -12,18 +12,18 @@ function App() {
           id='pro_img'
           />
 
-          {/* Slack username: Samow1 */}
+          {/* Slack username: Samow1, Twitter: @samowolabi */}
 
         <p className='proName'>Samuel Owolabi</p>
 
         <a
           className="button"
-          href="https://training.zuri.team/"
+          href="https://twitter.com/samowolabi"
           target="_blank"
-          id='btn_zuri'
+          id='@samowolabi'
           rel="noopener noreferrer"
         >
-          Twitter
+          Twitter Link
         </a>
       
         <a
@@ -43,7 +43,7 @@ function App() {
           id='books'
           rel="noopener noreferrer"
         >
-          Books
+          Zuri Books
         </a>
 
         <a
