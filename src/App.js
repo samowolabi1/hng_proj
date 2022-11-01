@@ -1,21 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import proImg from './proImg.jpeg';
+import Button from './Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={proImg} className="App-logo" alt="logo" />
+
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="button"
+          href="https://training.zuri.team/"
           target="_blank"
+          id='btn_zuri'
           rel="noopener noreferrer"
         >
-          Learn React
+          Twitter
+        </a>
+
+        <a
+          className="button"
+          href="https://training.zuri.team/"
+          target="_blank"
+          id='btn_zuri'
+          rel="noopener noreferrer"
+        >
+          Zuri Team
+        </a>
+      
+        <a
+          className="button"
+          href="https://training.zuri.team/"
+          target="_blank"
+          id='btn_zuri'
+          rel="noopener noreferrer"
+        >
+          Zuri Team
         </a>
       </header>
     </div>
